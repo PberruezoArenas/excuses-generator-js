@@ -17,33 +17,10 @@
   <body>
   
     <div class="container-fluid text-center">
-      <h1>Excuse GENERATOR</h1>
-      <button id="boton-3d" onclick="generateExcuse()">Generate EXCUSE</button>
+      <div class="container-excuse"><h1>Excuse GENERATOR</h1>
+      <button id="boton-3d">Generate EXCUSE</button></div>
       <p id="excuseOutput"></p>
-      <script>
-        function generateExcuse(){
-    let who = ["The dog", "My grandma", "His turtle", "My bird"];
-    let action = ["ate", "peed", "crushed", "broke"];
-    let what = ["my homework", "the keys", "the car"];
-    let when = [
-      "before the class",
-      "right on time",
-      "when I finished",
-      "during my lunch",
-      "while I was praying"
-    ];
-
-    let randomWho = who[Math.floor(Math.random() * who.length)];
-    let randomAction = action[Math.floor(Math.random() * action.length)];
-    let randomWhat = what[Math.floor(Math.random() * what.length)];
-    let randomWhen = when[Math.floor(Math.random() * when.length)];
-
-    let excuse = `${randomWho} ${randomAction} ${randomWhat} ${randomWhen}.`;
-
-    document.getElementById("excuseOutput").innerHTML = excuse;
-}
-      </script>
-          
+         
         Made with ❤️ FOR
         <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
       </div>

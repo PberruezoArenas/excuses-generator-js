@@ -48,6 +48,7 @@ p {
   font-family: sans-serif;
   background-color: rgb(54, 100, 100);
   border-radius: 20px;
+  text-align: center;
 }
 
 @keyframes moveText {
@@ -60,4 +61,11 @@ p {
   100% {
     transform: translateX(0);
   }
+}
+
+.container-excuse {
+  width: 800px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
 }
